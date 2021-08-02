@@ -1,0 +1,11 @@
+function isLeap(year) {
+  if(year%100==0 || (year%4!==0 && year %400!==0) )
+  {
+      alert("Not leap year");
+  }
+  else
+  {
+      alert("leap year");
+  }
+}
+isLeap(1989);
